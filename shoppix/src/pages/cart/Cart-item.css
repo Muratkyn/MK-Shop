@@ -1,0 +1,41 @@
+.btn_cart-item {
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    margin: 2px;
+    
+}
+.btn_cart-item:hover{
+    cursor: pointer;
+    color: rgb(2, 2, 2);
+    background-color: #ffffff;
+
+}
+.cart-input {
+    background-color: rgb(4, 4, 4);
+    color: azure;
+    border-radius: 3px;
+}
+.cart-input:hover{
+    cursor: pointer;
+    color: rgb(2, 2, 2);
+    background-color: #ffffff;
+}
+
+.btn_cart-item-remove {
+    float:right;
+    margin-right: 4%;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    
+}
+.btn_cart-item-remove:hover {
+    float:right;
+    margin-right: 4%;
+    cursor: pointer;
+    color: rgb(1, 1, 1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    
+}
