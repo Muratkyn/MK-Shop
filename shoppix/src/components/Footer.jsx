@@ -13,7 +13,10 @@ const Footer = () => {
               <a>Contact us</a>
               <p>Design by MK</p>  
               <p>Design by MK</p>  
+<<<<<<< HEAD
+=======
               <p>Design by MK</p>  
+>>>>>>>>> Temporary merge branch 2
             </div>
         </div>    
     </div>
