@@ -12,8 +12,6 @@ const Footer = () => {
               <a>Careers</a>
               <a>Contact us</a>
               <p>Design by MK</p>  
-              <p>Design by MK</p>  
-              <p>Design by MK</p>  
             </div>
         </div>    
     </div>
