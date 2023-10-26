@@ -13,6 +13,10 @@ const Footer = () => {
               <a>Contact us</a>
               <p>Design by MK</p>  
               <p>Design by MK</p>  
+<<<<<<< HEAD
+=======
+              <p>Design by MK</p>  
+>>>>>>> origin/master
             </div>
         </div>    
     </div>
