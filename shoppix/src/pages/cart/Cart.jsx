@@ -11,9 +11,7 @@ import TrendingProducts from './TrendingProducts'
 
 const Cart = () => {
   const { cartItems, getTotalCartAmount} = useContext(ShopContext);
-
   const totalAmount = getTotalCartAmount()
-
   const navigate = useNavigate()
 
   return (

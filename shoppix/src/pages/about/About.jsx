@@ -2,6 +2,37 @@ import React from 'react'
 import './About.css'
 
 const About = () => {
+  
+  // function DataCallBack(){
+  //   console.log("got it")
+  // }
+  // async function getData() {
+  //   console.log("getting Data")
+  //   const result = await DataCallBack();
+  //   console.log (result);
+   
+  // }
+
+
+
+  async function fetchCall() {
+    try{
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    const data = await response.json()
+    console.log(response)
+    console.log(data)
+    }catch(err) {
+      console.log("sth went wrong")
+      console.log(err)
+    }
+  }
+
+  fetchCall();
+
+  
+
+
+
   return (
     <div>
     
@@ -35,6 +66,8 @@ const About = () => {
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
           </div>
         </div>
+
+
      </div>
       </div>
   )

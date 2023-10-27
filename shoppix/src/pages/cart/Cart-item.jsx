@@ -5,7 +5,7 @@ import './Cart-item.css';
 
 
 const CartItem = (props) => {
-    const {id, productName, price, productImage} = props.data
+    const {id, productName, price, productImage, stars} = props.data
 
     const { cartItems, addToCart, removeFromCart, updateCartItemAmount, removeProduct} = useContext(ShopContext);
 
@@ -17,8 +17,8 @@ const CartItem = (props) => {
             <div> 
             <button className='btn_cart-item-remove'onClick={() => removeProduct(id)}>X</button>
               <p><b>{productName}</b></p>
+              <p>{stars}</p>
             </div> 
-
             <p>€{price}</p>
             <div className='countHandler'>
                 <button className='btn_cart-item' onClick={() => removeFromCart(id)}>-</button>
