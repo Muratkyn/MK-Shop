@@ -8,7 +8,7 @@ import './TrendingProducts.css'
 const TrendingProducts = (props) => {
     const {id, productName, price, productImage,stars} = props.data
 
-    const { cartItems, addToCart, removeFromCart, updateCartItemAmount} = useContext(ShopContext)
+    const { cartItems, addToCart} = useContext(ShopContext)
     const cartItemAmount = cartItems[id]
 
   return (

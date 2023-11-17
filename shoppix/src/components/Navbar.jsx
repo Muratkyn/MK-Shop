@@ -3,13 +3,25 @@ import { Link } from 'react-router-dom'
 import {ShoppingCart} from 'phosphor-react';
 import "./Navbar.css";
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { ShopContext } from '../context/Shop-context';
 
 
-const Navbar = () => {
+
+
+
+const Navbar = (props) => {
+
+
+  const { cartItems} = useContext(ShopContext)
+  const {id} = props.data
+
   const navigate = useNavigate()
   const handleSubmit= (e) => {
     e.preventDefault();
   };
+
+
 
   return (
     <div className='navbar'>
@@ -24,7 +36,10 @@ const Navbar = () => {
             <Link to='/shop'>Store</Link>
             <Link to='/contact'>Contact</Link>
             <Link to='/cart'>
-                <ShoppingCart size={30} />
+                <ShoppingCart size={30}/> 
+                <span className='badge'>
+                {cartItems[id]}
+                </span>
             </Link>
             
             

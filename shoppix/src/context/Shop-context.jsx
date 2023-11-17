@@ -3,7 +3,7 @@ import { PRODUCTS } from '../Products';
 import { createContext } from 'react'
 
 
-export const ShopContext = createContext(null)
+export const ShopContext = createContext()
 
 const getDefaultCart = () => {
   let cart = {};
@@ -16,6 +16,7 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
     const [cartItems, setCartItems] = useState (getDefaultCart())
+
 
     const getTotalCartAmount = () => {
       let totalAmount= 0;
@@ -43,13 +44,16 @@ const ShopContextProvider = (props) => {
       setCartItems((prev) => ({...prev, [itemId]: newAmount}));
     }
 
+
+
     const contextValue = {
       cartItems, 
       addToCart, 
       removeFromCart, 
       updateCartItemAmount, 
       getTotalCartAmount,
-      removeProduct }
+      removeProduct,
+    }
 
     
 

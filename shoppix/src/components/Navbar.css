@@ -80,3 +80,9 @@ a {
   color: rgb(252, 252, 252);
   text-decoration: none;
 }
+
+.badge {
+  color: aliceblue;
+  /* background-color: brown; */
+  padding: 0 2em;
+}
