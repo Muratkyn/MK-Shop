@@ -7,12 +7,13 @@ import ShopContextProvider from './context/Shop-context';
 import About from './pages/about/About';
 import Main from './pages/main/Main';
 import Footer from './components/Footer';
+import { PRODUCTS } from './Products';
 function App() {
   return (
     <div className="App">
       <ShopContextProvider>
         <Router>
-          <Navbar />
+          <Navbar data={PRODUCTS}/>
           <Routes>
             <Route path='/' element={<Main/>}/>
             <Route path='/about' element={<About />}/>
