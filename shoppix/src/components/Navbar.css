@@ -40,20 +40,30 @@
   color: rgb(103, 103, 102);
 }
 
+@media screen and (max-width: 810px) {
+  .links  {
+    width:  80%;
+    display: flex;
+    margin-top: 6%;
+    
+  }
+ }
 @media screen and (max-width: 690px) {
   .links  {
-    width: 100%;
-    display:inline-flex;
+    width: 80%;
+    display:flex;
     margin-top: 6%;
+    align-items: center;
+    justify-content: center;
     
   }
  }
  
  @media screen and (max-width: 450px) {
   .links  {
-    display:inline-flex;
-    vertical-align: baseline;
-    margin-top: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
  }
 
@@ -71,6 +81,16 @@ align-items: center;
 margin-left: 5%;
 letter-spacing: 4px;
 }
+@media screen and (max-width: 810px) {
+  .brand {
+  width:  80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6%;
+    
+  }
+ }
 
 .brand:hover {
   color: rgb(103, 103, 102);

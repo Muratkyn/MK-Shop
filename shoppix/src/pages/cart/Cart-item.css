@@ -5,6 +5,7 @@
     margin: 2px;
     
 }
+
 .btn_cart-item:hover{
     cursor: pointer;
     color: rgb(2, 2, 2);
@@ -16,6 +17,7 @@
     color: azure;
     border-radius: 3px;
 }
+
 .cart-input:hover{
     cursor: pointer;
     color: rgb(2, 2, 2);
@@ -39,3 +41,38 @@
     border-radius: 8px;
     
 }
+
+.cartItem {
+    border: #959292 solid ;
+}
+@media screen and (max-width: 1000px) {
+    .cartItem {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      }
+    }
+@media screen and (max-width: 960px) {
+        .cartItem {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+@media screen and (max-width: 600px) {
+            .cartItem {
+                width: 80%;
+                height: 100%;
+                size: 100px;
+              }
+            }
+@media screen and (max-width: 600px) {
+            .cartItem {
+                width: 80%;
+                height: 100%;
+                size: 100px;
+              }
+            }
