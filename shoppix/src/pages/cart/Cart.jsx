@@ -45,11 +45,14 @@ const Cart = () => {
         </div>}
       <h1 className='trending_title'>TRENDING NOW</h1>
       </div>
+      <div className='trending_wrapper'>
+
       {PRODUCTS.map((product)=> {
-            if (product.isTrending == true)
-            return <TrendingProducts data={product}/>;
-          })
-          }
+        if (product.isTrending == true)
+        return <TrendingProducts data={product}/>;
+      })
+    }
+    </div>
       
     </div>
   )

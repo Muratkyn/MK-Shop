@@ -9,7 +9,12 @@
   justify-content: center;
   
 }
-
+@media screen and (max-width: 810px) {
+  .head_header  {
+    margin-top: 20%;
+    font-size: x-small;
+  }
+ }
 @media screen and (max-width: 690px) {
   .head_header  {
     margin-top: 30%;
