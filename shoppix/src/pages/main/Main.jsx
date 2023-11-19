@@ -32,7 +32,8 @@ const Main = () => {
             <img className='image-box2' src='https://pic.onlinewebfonts.com/thumbnails/icons_571295.svg'></img>
             <h1>Fast Delivery</h1>
             <p>Providing the fastest delivery within 24 hours.</p>
-          </div><div className="plan-container__boxes__box">
+          </div>
+          <div className="plan-container__boxes__box">
             <img className='image-box3' src='https://pic.onlinewebfonts.com/thumbnails/icons_518256.svg'></img>
             <h1>7/24 SERVICE</h1>
             <p>We will be assisting you all the time.</p>
@@ -62,7 +63,7 @@ const Main = () => {
                   <p className='client_testimonials_all_paragraph'>"It was a great experience! All of the products I need to challenge Spidey are just one click away! Excellent experience. "</p>
                     <div className='.client_testimonials_name'>
                       <div className='client_testimonials_profile'>
-                        <img src="https://avatarfiles.alphacoders.com/151/151717.jpg" alt="" />
+                        <img src="https://scontent.fmxp5-1.fna.fbcdn.net/v/t39.30808-6/296013587_376052234644833_2078575260035133645_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=T3RgRSBOwIsAX_WVogT&_nc_ht=scontent.fmxp5-1.fna&oh=00_AfB7xteG84dScTmX2-XCC-Fx8Fo0lE93bjKSWQ1ONY-2-w&oe=655F38B4" alt="" />
                           <div className='client_testimonials_profile_info'>
                             <h4>Venom</h4>
                           </div>
