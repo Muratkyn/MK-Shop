@@ -32,9 +32,7 @@ const Navbar = (props) => {
       
         <div className='links'>
             <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
             <Link to='/shop'>Store</Link>
-            <Link to='/contact'>Contact</Link>
             <Link to='/cart'>
                 <ShoppingCart size={30}/> 
                 <span className='badge'>
