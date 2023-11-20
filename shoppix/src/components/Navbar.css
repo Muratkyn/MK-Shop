@@ -12,26 +12,33 @@
   top: 0;
 
 }
-/* @media screen and (max-width: 680px) {
+@media screen and (max-width: 680px) {
   .navbar  {
     width: 100%;
     height: auto;
   }
- } */
+ }
+ @media screen and (max-width: 390px) {
+  .navbar  {
+    width: 25%;
+    height: 2%;
+    align-items: center;
+    display: block;
+  }
+ }
 
 
 .links {
-  margin-right: 5%;
+  margin-right: 3%;
   display: flex;
   align-items: center;
-  
 }
 
 .links a {
   text-decoration: none;
   color: white;
   margin-left: 10px;
-  padding:0 20px;
+  padding:0 2.5rem;
   font-size: 20px;
   font-family: 'Kanit', sans-serif;
   

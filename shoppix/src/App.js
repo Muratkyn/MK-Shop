@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import ShopContextProvider from './context/Shop-context';
-import About from './pages/about/About';
 import Main from './pages/main/Main';
 import Footer from './components/Footer';
 import { PRODUCTS } from './Products';
@@ -16,7 +15,6 @@ function App() {
           <Navbar data={PRODUCTS}/>
           <Routes>
             <Route path='/' element={<Main/>}/>
-            <Route path='/about' element={<About />}/>
             <Route path='/cart' element={<Cart />} />
             <Route path='/shop' element={<Shop/>}/>
           </Routes>
